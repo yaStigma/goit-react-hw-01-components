@@ -1,0 +1,29 @@
+.statistics {
+  margin-top: 30px;
+  width: 23vw;
+  background-color: #fff;
+}
+.title {
+  padding: 25px 15px;
+  text-align: center;
+  font-weight: bold;
+  color: black;
+}
+.statList {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 5px;
+  padding: 5px 5px 20px 5px;
+  color: #fff;
+}
+.label {
+}
+.percentage {
+}
